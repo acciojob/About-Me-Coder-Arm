@@ -1,1 +1,34 @@
-
+.container{
+	display: flex;
+}
+.left-box,.right-box{
+	width: 50%;
+}
+.person-img img{
+	width: 200px;
+}
+.top{
+	display: flex;
+	gap: 2rem;
+}
+.progress{
+height: 5px!important;
+margin-bottom:10px;
+}
+.skill-1,.skill-2,.skill-3{
+	width: 80%;
+}
+.skill-pack{
+	display: flex;
+	justify-content: space-between;
+}
+.percent{
+	width: auto;
+	text-align: end;
+}
+.underline{
+	margin-top: 5px;
+	width: 25%;
+	height: 3px;
+	background-color: aqua;
+}
